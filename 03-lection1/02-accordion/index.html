@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
-    </body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./accordion.css" />
+  </head>
+  <body>
+    <div class="accordion">
+      <details class="accordion__item">
+        <summary class="accordion__summary">Accordion item</summary>
+        <p class="accordion__content">Hidden content</p>
+      </details>
+      <details class="accordion__item">
+        <summary class="accordion__summary">Accordion item 2</summary>
+        <p class="accordion__content">Hidden content 2</p>
+      </details>
+    </div>
+  </body>
 </html>
