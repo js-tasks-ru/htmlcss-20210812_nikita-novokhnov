@@ -1,4 +1,3 @@
 .preview {
-  background: #f9fafc;
-  height: 500px;
+  background: var(--white);
 }
