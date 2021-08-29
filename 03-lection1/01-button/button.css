@@ -30,6 +30,7 @@
   background: var(--primary-disabled);
   opacity: 0.5;
   cursor: default;
+  pointer-events: none;
 }
 
 .button_secondary {
@@ -46,6 +47,7 @@
   background: var(--secondary-disabled);
   opacity: 0.5;
   cursor: default;
+  pointer-events: none;
 }
 
 .button_alternate {
@@ -56,14 +58,13 @@
 }
 
 .button_alternate:hover {
-  border: 1px solid var(--black);
-  box-sizing: border-box;
+  border: 1px solid var(--black); 
 }
 
 .button_alternate:disabled {
   opacity: 0.5;
   color: var(--grey-4);
   border: 1px solid var(--grey-3);
-  box-sizing: border-box;
   cursor: default;
+  pointer-events: none;
 }
